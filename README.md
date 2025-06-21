@@ -16,19 +16,19 @@ The project follows a modular structure to ensure maintainability and scalabilit
 Below is a visuial on how the layout should be structured. Note, I did not add a readme section here, as I just uploaded it to GitHub. 
 
 task-management-app/
-├── src/
-│   ├── components/          # Reusable UI components (e.g., NavBar, TaskList, TaskForm)
-│   ├── context/            # Context API for global state management (e.g., TaskContext)
-│   ├── hooks/              # Custom hooks (e.g., useTaskContext)
-│   ├── models/             # TypeScript interfaces (e.g., Task.model.ts)
-│   ├── pages/              # Page components for routing (e.g., DashboardPage, TaskCreatePage)
-│   ├── App.tsx             # Main app component with routing configuration
-│   ├── Auth0Provider.tsx   # Auth0 configuration and provider
-│   ├── main.tsx            # Entry point for the React app
-│   ├── App.css             # Global CSS styles
-├── package.json            # Project dependencies and scripts
-├── tsconfig.json           # TypeScript configuration
-├── vite.config.ts          # Vite configuration
+- src/
+- components/          # Reusable UI components (e.g., NavBar, TaskList, TaskForm)
+- context/            # Context API for global state management (e.g., TaskContext)
+- hooks/              # Custom hooks (e.g., useTaskContext)
+- models/             # TypeScript interfaces (e.g., Task.model.ts)
+- pages/              # Page components for routing (e.g., DashboardPage, TaskCreatePage)
+- App.tsx             # Main app component with routing configuration
+- Auth0Provider.tsx   # Auth0 configuration and provider
+- main.tsx            # Entry point for the React app
+- App.css             # Global CSS styles
+- package.json            # Project dependencies and scripts
+- tsconfig.json           # TypeScript configuration
+- vite.config.ts          # Vite configuration
 
 
 - **Components**: Encapsulate UI logic and are reusable across pages.
