@@ -82,7 +82,7 @@ const clientId = 'your-client-id'; // Replace with your Auth0 client ID
 
 2. Clone the Repository
 ```Command Prompt
-git clone <repository-url>
+git clone <https://github.com/Astor2386/Task-Management-App.git>
 cd task-management-app
 
 ### 3. Install Dependencies
