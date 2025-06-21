@@ -29,7 +29,8 @@ task-management-app/
 - package.json            # Project dependencies and scripts
 - tsconfig.json           # TypeScript configuration
 - vite.config.ts          # Vite configuration
-
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 - **Components**: Encapsulate UI logic and are reusable across pages.
 - **Context**: Manages global state (tasks) using the Context API and a custom provider.
